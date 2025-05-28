@@ -1,0 +1,1420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<!-- particles.js library -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<link rel="stylesheet" href="style.css">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="particles-js"></div>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="Photo_Rashmitha.jpeg" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+            <h1 class="name" title="Rashmitha G">Rashmitha G</h1>
+            <p class="title" id="role">Web Developer</p>
+        </div>
+        
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:rashmithag5204@gmail.com" class="contact-link">rashmithag5204@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 9482486718" class="contact-link">+91 9482486718</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2004-02-05">February 5, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Puttur, Karnataka, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+            <li class="social-item">
+                <a href="https://www.linkedin.com/in/rashmitha-g-5077b2228" class="social-link" target="_blank">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+              
+
+          <li class="social-item">
+            <a href="https://github.com/Rashmitha-G123" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="mailto:rashmithag5204@gmail.com" class="social-link">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Achievement</button>
+          </li>
+          
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+            <p>
+                I am Rashmitha G, a final-year B.E. student specializing in Artificial Intelligence and Machine Learning at Canara Engineering College, Mangalore, with a CGPA of 8.28. I have a strong foundation in programming languages including Java, Python, C and SQL, along with hands-on experience in web technologies like HTML, CSS, JavaScript and PHP (Laravel). During my academic journey, I have completed internships in industrial training, web development and agriculture-based automation, which enhanced both my technical and problem-solving skills.</p><p>
+                
+                My major academic projects include a Weather Detection App (Full Stack), PDF Data Extraction using UIPath (RPA), an Apartment Management System using DBMS, Sentiment Analysis based on product reviews using machine learning and a deep learning-based system for Kidney Cancer Detection. Each project reflects my ability to apply theoretical concepts in practical scenarios.
+                
+                Outside academics, I’ve actively participated in national-level robotics competitions held at IITs and excelled in athletics, earning the "Best Athlete Award" and medals in walk races and ball badminton. Additionally, I have a passion for cultural activities and have successfully cleared the Senior level Bharatanatyam examination.</p><p>
+                
+                With a well-rounded blend of technical expertise, teamwork and creativity, I am eager to contribute to meaningful and challenging projects in the tech industry.
+                </p>
+                
+               
+              
+        </section>
+        <div style="margin-top: 30px;">
+            <a href="4CB21AI033_Rashmitha.G.pdf" download 
+               style="display: inline-flex; align-items: center; padding: 6px 12px; background-color: #ffb400; color: #000; border-radius: 4px; font-size: 14px; text-decoration: none; font-weight: 500;">
+              <ion-icon name="download-outline" style="margin-right: 6px; font-size: 16px;"></ion-icon>
+              Download CV
+            </a>
+          </div>
+          
+
+        <!--
+          - service
+        -->
+
+        <!-- <section class="service">
+
+            <h3 class="h3 service-title">What I'm Doing</h3>
+          
+            <ul class="service-list">
+          
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-dev.svg" alt="Web Development icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Full Stack Web Development</h4>
+                  <p class="service-item-text">
+                    Building responsive and dynamic web applications using HTML, CSS, JavaScript, PHP (Laravel) and SQL.
+                  </p>
+                </div>
+              </li>
+          
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-ai.svg" alt="AI icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">AI & Machine Learning</h4>
+                  <p class="service-item-text">
+                    Exploring intelligent systems through hands-on projects like sentiment analysis and cancer detection.
+                  </p>
+                </div>
+              </li>
+          
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-robot.svg" alt="RPA icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Robotic Process Automation</h4>
+                  <p class="service-item-text">
+                    Automating tasks and optimizing real-world problems through RPA tools and techniques.
+                  </p>
+                </div>
+              </li>
+          
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-internship.svg" alt="Internship icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Internship Projects</h4>
+                  <p class="service-item-text">
+                    Contributed to real-time development and testing during internships in web development and automation.
+                  </p>
+                </div>
+              </li>
+          
+            </ul>
+          
+          </section>
+           -->
+
+
+
+          
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+      </article>
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Canara Engineering College, Benjanapadavu, Mangalore
+              </h4>
+
+              <span>2021-Present</span>
+
+              <p class="timeline-text">
+                B.E – Artificial Intelligence & Machine Learning Engineering<br>
+                CGPA: 8.28              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Narendra PU College, Puttur</h4>
+
+              <span>2021</span>
+
+              <p class="timeline-text">
+                Senior Secondary (12th)<br>
+                Percentage : 89%
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Government High School Irde – Uppalige </h4>
+
+              <span> 2019</span>
+
+              <p class="timeline-text">
+                Secondary School (SSLC)<br>
+                Percentage : 88.96%
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+        <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="code-slash-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Skills</h3>
+            </div>
+          
+            <ol class="timeline-list">
+          
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  <ion-icon name="terminal-outline"></ion-icon>
+                  Programming Languages
+                </h4>
+                <p class="timeline-text">
+                  Python, Java, C, HTML, CSS, JavaScript, PHP (Laravel), SQL
+                </p>
+              </li>
+          
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  <ion-icon name="construct-outline"></ion-icon>
+                  Frameworks & Tools
+                </h4>
+                <p class="timeline-text">
+                  Laravel, Full Stack Development
+                </p>
+              </li>
+          
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  <ion-icon name="hardware-chip-outline"></ion-icon>
+                  AI / ML / DL
+                </h4>
+                <p class="timeline-text">
+                  Artificial Intelligence, Machine Learning, Deep Learning
+                </p>
+              </li>
+          
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  <ion-icon name="repeat-outline"></ion-icon>
+                  Automation
+                </h4>
+                <p class="timeline-text">
+                  Robotic Process Automation (RPA)
+                </p>
+              </li>
+          
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  <ion-icon name="globe-outline"></ion-icon>
+                  Web Development
+                </h4>
+                <p class="timeline-text">
+                  Web Applications, Web Development, Databases
+                </p>
+              </li>
+          
+            </ol>
+          </section>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="briefcase-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Internships</h3>
+            </div>
+          
+            <ol class="timeline-list">
+                <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">Web Development Intern – MetroMindz Software Pvt. Ltd.</h4>
+                    <span>Feb 2025-May 2025</span>
+                    <p class="timeline-text">
+                        Developed and maintained dynamic web modules including a Visitor registration form, task management system and leave management portal. Worked with technologies like Laravel, PHP, HTML, CSS and JavaScript to ensure  smooth user interactions and functional backend logic. Also conducted testing and evaluation to improve performance and usability.
+                    </p>
+                  </li>
+                  <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">Societal Internship – Agriculture Automation</h4>
+                    <span>2024</span>
+                    <p class="timeline-text">
+                      Worked on “Optimizing Paddy Cultivation Automation” to improve productivity using affordable tech solutions.
+                    </p>
+                  </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">QSpiders Campus Connect, Bengaluru</h4>
+                <span>26 Oct 2023 – 10 Nov 2023</span>
+                <p class="timeline-text">
+                  Completed an Industrial Internship focusing on core software development and testing skills enhancement.
+                </p>
+              </li>
+          
+             
+          
+            </ol>
+          </section>
+          
+
+      </article>
+      <!--
+        - #Projects
+      -->
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+      
+        <section class="projects">
+      
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Automation</button>
+            </li>
+          </ul>
+      
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
+            </button>
+      
+            <ul class="select-list">
+              <li class="select-item"><button data-select-item>All</button></li>
+              <li class="select-item"><button data-select-item>Web development</button></li>
+              <li class="select-item"><button data-select-item>Machine Learning</button></li>
+              <li class="select-item"><button data-select-item>Automation</button></li>
+            </ul>
+          </div>
+      
+          <ul class="project-list">
+      
+            <!-- Weather Detection App -->
+            <li class="project-item active" data-filter-item data-category="web development">
+                <a href="javascript:void(0);" onclick="openModal('weather-modal')">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                    <img src="weather-app.avif" alt="Weather App" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Weather Detection App</h3>
+                  <p class="project-category">Full Stack Development</p>
+                </a>
+              </li>
+              
+            
+            <!-- PDF Data Extraction -->
+            <li class="project-item active" data-filter-item data-category="automation">
+                <a href="javascript:void(0);" onclick="openModal('PDF-modal')">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="pdf-extarction.avif" alt="PDF Extraction" loading="lazy">
+                </figure>
+                <h3 class="project-title">PDF Data Extraction using RPA</h3>
+                <p class="project-category">Robotic Process Automation</p>
+              </a>
+            </li>
+      
+            <!-- Apartment Management System -->
+            <li class="project-item active" data-filter-item data-category="web development">
+                <a href="javascript:void(0);" onclick="openModal('apartment-modal')"
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="apartment-dbms.avif" alt="Apartment System" loading="lazy">
+                </figure>
+                <h3 class="project-title">Apartment Management System</h3>
+                <p class="project-category">DBMS Project</p>
+              </a>
+            </li>
+      
+            <!-- Sentiment Analysis -->
+            <li class="project-item active" data-filter-item data-category="machine learning">
+                <a href="javascript:void(0);" onclick="openModal('sentimental-modal')"
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="senti-ml.avif" alt="Sentiment Analysis" loading="lazy">
+                </figure>
+                <h3 class="project-title">Sentiment Analysis on Product Reviews</h3>
+                <p class="project-category">Machine Learning</p>
+              </a>
+            </li>
+      
+            <!-- Kidney Cancer Detection -->
+            <li class="project-item active" data-filter-item data-category="machine learning">
+                <a href="javascript:void(0);" onclick="openModal('kidney-modal')"
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="kidney-dl.avif" alt="Cancer Detection" loading="lazy">
+                </figure>
+                <h3 class="project-title">Kidney Cancer Detection</h3>
+                <p class="project-category">Deep Learning</p>
+              </a>
+            </li>
+
+            <!-- Task Management -->
+<li class="project-item active" data-filter-item data-category="web development">
+  <a href="javascript:void(0);" onclick="openModal('task-modal')">
+    <figure class="project-img">
+      <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+      <img src="female-student-learning-english-online.jpg" alt="Task Management" loading="lazy">
+    </figure>
+    <h3 class="project-title">Task Management System</h3>
+    <p class="project-category">Web Development</p>
+  </a>
+</li>
+
+<!-- Leave Management -->
+<li class="project-item active" data-filter-item data-category="web development">
+  <a href="javascript:void(0);" onclick="openModal('leave-modal')">
+    <figure class="project-img">
+      <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+      <img src="schedule-planner-task-agenda-checklist-concept.jpg" alt="Leave Management" loading="lazy">
+    </figure>
+    <h3 class="project-title">Leave Management Portal</h3>
+    <p class="project-category">Web Development</p>
+  </a>
+</li>
+      
+          </ul>
+      
+        </section>
+      
+      </article>
+      
+<!--
+  - #ACHIEVEMENT (replacing BLOG)
+-->
+
+<article class="achievement" data-page="achievement">
+
+    <header>
+      <h2 class="h2 article-title">Achievements</h2>
+    </header>
+  
+    <section class="achievements">
+      <div class="medals-container">
+        <!-- 3km Walk Race -->
+        <div class="medal-card" onclick="openAchievementModal('walk-race')">
+          <div class="medal-icon">
+            <img src="1st-prize_11224714.png" alt="1st Place Medal" style="width: 3rem; height: 3rem; object-fit: contain;">
+          </div>
+          <h3>1st Place</h3>
+          <p>3km Walk race, Vidyabharathi District level (2019)</p>
+        </div>
+        
+        <!-- Best Athlete -->
+        <div class="medal-card" onclick="openAchievementModal('best-athlete')">
+          <div class="medal-icon">
+            <img src="trophy_3363103.png" alt="3rd Place Medal" style="width: 4rem; height: 4rem; object-fit: contain;">
+          </div>
+          <h3>Best Athlete</h3>
+          <p>Canara Engineering College 2022-23</p>
+        </div>
+        
+        <!-- 20km Walk Race -->
+        <div class="medal-card" onclick="openAchievementModal('20km-walk')">
+          <div class="medal-icon">
+            <img src="3rd-place_11224726.png" alt="3rd Place Medal" style="width: 3rem; height: 3rem; object-fit: contain;">
+          </div>
+          <h3>3rd Place</h3>
+          <p>20km Walk race, VTU Inter Collegiate State Level (2023)</p>
+        </div>
+        
+        <!-- Ball Badminton -->
+        <div class="medal-card" onclick="openAchievementModal('ball-badminton')">
+          <div class="medal-icon">
+            <img src="3rd-place_11224726.png" alt="3rd Place Medal" style="width: 3rem; height: 3rem; object-fit: contain;">
+          </div>
+          <h3>3rd Place</h3>
+          <p>VTU Women State Level Ball Badminton (2024)</p>
+        </div>
+        
+        <!-- Bharatanatyam -->
+        <div class="medal-card" onclick="openAchievementModal('bharatanatyam')">
+          <div class="medal-icon">
+            <ion-icon name="star-outline"></ion-icon>
+          </div>
+          <h3>Bharatanatyam</h3>
+          <p>Cleared Senior level Exam</p>
+        </div>
+        
+        <!-- Robotics -->
+        <div class="medal-card" onclick="openAchievementModal('robotics')">
+          <div class="medal-icon">
+            <ion-icon name="hardware-chip-outline"></ion-icon>
+          </div>
+          <h3>Robotics</h3>
+          <p>Participated in IIT competitions (2021-2025)</p>
+        </div>
+      </div>
+    </section>
+  
+  </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+      
+        <!-- Let's Connect Message -->
+        <section class="contact-intro">
+          <p style="color: white; font-size: 18px; line-height: 1.5; max-width: 600px; margin: 0 auto;">
+            I'd love to connect with you! Feel free to drop a message or reach out through social media.
+          </p>
+        </section>
+      
+        <!-- Contact Form -->
+        <section class="contact-form" style="background-color: #1a1a1a; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+          <h3 class="h3 form-title" style="color: #ffcb00; text-align: center; margin-bottom: 20px;">Contact Form</h3>
+      
+          <form action="https://formspree.io/f/mjkwrwrl" method="POST" class="form" data-form style="display: flex; flex-direction: column; gap: 20px;">
+          
+            <div class="input-wrapper" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required style="padding: 15px; font-size: 16px;">
+              <input type="email" name="email" class="form-input" placeholder="Email address" required style="padding: 15px; font-size: 16px;">
+            </div>
+      
+            <textarea name="message" class="form-input" placeholder="Your Message" required style="padding: 15px; font-size: 16px; min-height: 120px;"></textarea>
+      
+            <button class="form-btn" type="submit" style="background-color: #ffcb00; color: black; font-weight: bold; padding: 15px 30px; border: none; border-radius: 8px; transition: background-color 0.3s ease;">
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+      
+          </form>
+        </section>
+      
+
+      
+
+<!-- Social Media Icons -->
+<section class="social-icons" style="margin-top: 20px; display: flex; justify-content: center; gap: 15px; align-items: center; text-align: center;">
+    <a href="https://linkedin.com/in/rashmithag" target="_blank" style="color: #ffb400;">
+      <ion-icon name="logo-linkedin" size="large"></ion-icon>
+    </a>
+    <a href="https://github.com/rashmithag" target="_blank" style="color: #ffb400;">
+      <ion-icon name="logo-github" size="large"></ion-icon>
+    </a>
+    <a href="mailto:rashmithag5204@gmail.com" style="color: #ffb400;">
+      <ion-icon name="mail-outline" size="large"></ion-icon>
+    </a>
+  </section>
+  
+  
+      
+      </article>
+      
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+<div id="weather-modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('weather-modal')">&times;</span>
+      <h3>Weather Detection App</h3>
+      <p>This full-stack application allows users to check real-time weather data by entering a city name. It integrates with the <strong>OpenWeatherMap API</strong> to fetch live climate data.</p>
+      
+      <h4>🔧 Technologies Used:</h4>
+<ul>
+  <li>HTML, CSS, JavaScript (Frontend)</li>
+  <li>Django (Backend - Python Framework)</li>
+  <li>OpenWeatherMap API</li>
+</ul>
+
+  
+      <h4>✨ Key Features:</h4>
+      <ul>
+        <li>Search weather by city</li>
+        <li>Displays temperature, humidity, wind speed and condition icons</li>
+        <li>Loading state and error handling</li>
+      </ul>
+  
+      <h4>🧑‍💻 My Role:</h4>
+      <p>I developed both frontend and backend, integrated the API and ensured responsive UI design and smooth user interaction.</p>
+    </div>
+  </div>
+  <div id="PDF-modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('PDF-modal')">&times;</span>
+      <h3>PDF Data Extraction using RPA</h3>
+      <p>This project focuses on extracting data from PDFs using Robotic Process Automation (RPA) with UIPath. The automation reduces manual data entry, enhancing productivity and accuracy.</p>
+      
+      <h4>🔧 Technologies Used:</h4>
+      <ul>
+        <li>UIPath (RPA Tool)</li>
+        <li>Python (Scripting and Automation)</li>
+        <li>PDF Extraction Libraries (e.g., PyPDF2)</li>
+      </ul>
+  
+      <h4>✨ Key Features:</h4>
+      <ul>
+        <li>Automated data extraction from structured PDFs</li>
+        <li>Data storage in Excel or CSV format</li>
+        <li>Real-time processing with minimal errors</li>
+      </ul>
+  
+      <h4>🧑‍💻 My Role:</h4>
+      <p>I designed and developed the automation pipeline using UIPath, integrated Python scripts for data parsing and ensured smooth functionality of the entire process.</p>
+    </div>
+  </div>
+  <div id="apartment-modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('apartment-modal')">&times;</span>
+      <h3>Apartment Management System</h3>
+      <p>A DBMS-based project to manage apartment-related operations such as tenant information, rent records, maintenance and complaints.</p>
+  
+      <h4>🔧 Technologies Used:</h4>
+      <ul>
+        <li>MySQL (Database)</li>
+        <li>PHP (Backend)</li>
+        <li>HTML, CSS, JavaScript (Frontend)</li>
+      </ul>
+  
+      <h4>✨ Key Features:</h4>
+      <ul>
+        <li>Role-based access for admin and tenants</li>
+        <li>Online rent payment and complaint tracking</li>
+        <li>Dynamic report generation</li>
+      </ul>
+  
+      <h4>🧑‍💻 My Role:</h4>
+      <p>I developed and integrated the database with a user-friendly interface and handled backend logic for CRUD operations.</p>
+    </div>
+  </div>
+  <div id="sentimental-modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('sentimental-modal')">&times;</span>
+      <h3>Sentiment Analysis on Product Reviews</h3>
+      <p>A machine learning project that classifies customer product reviews as positive, negative or neutral based on sentiment analysis techniques.</p>
+  
+      <h4>🔧 Technologies Used:</h4>
+      <ul>
+        <li>Python (Pandas, NLTK, Scikit-learn)</li>
+        <li>Jupyter Notebook</li>
+        <li>Logistic Regression, Naive Bayes and SVM</li>
+      </ul>
+  
+      <h4>✨ Key Features:</h4>
+      <ul>
+        <li>Text preprocessing and feature extraction</li>
+        <li>Accuracy comparison between models</li>
+        <li>Word cloud visualization</li>
+      </ul>
+  
+      <h4>🧑‍💻 My Role:</h4>
+      <p>I led data preprocessing, model training and performance evaluation of different classification algorithms.</p>
+    </div>
+  </div>
+  <div id="kidney-modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('kidney-modal')">&times;</span>
+      <h3>Kidney Cancer Detection</h3>
+      <p>A deep learning project to detect kidney cancer using image classification techniques on medical scans.</p>
+  
+      <h4>🔧 Technologies Used:</h4>
+      <ul>
+        <li>Python (TensorFlow, Keras)</li>
+        <li>Convolutional Neural Networks (CNN)</li>
+        <li>Matplotlib, OpenCV</li>
+      </ul>
+  
+      <h4>✨ Key Features:</h4>
+      <ul>
+        <li>Image preprocessing and augmentation</li>
+        <li>High accuracy model with CNN</li>
+        <li>Train-validation performance monitoring</li>
+      </ul>
+  
+      <h4>🧑‍💻 My Role:</h4>
+      <p>I built and trained the CNN model, processed datasets and analyzed model performance metrics.</p>
+    </div>
+  </div>
+
+  <div id="task-modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('task-modal')">&times;</span>
+      <h3>Task Management System</h3>
+      <p>A dynamic web-based system designed to organize, assign and track tasks within teams or organizations.</p>
+      <h4>🔧 Technologies Used:</h4>
+      <ul>
+        <li>Laravel (PHP Framework)</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>MySQL Database</li>
+      </ul>
+      <h4>✨ Key Features:</h4>
+      <ul>
+        <li>Create, update, delete tasks</li>
+        <li>Assign tasks to users with due dates</li>
+        <li>Mark task status (Pending, In Progress, Completed)</li>
+        <li>User authentication and role-based access</li>
+      </ul>
+      <h4>🧑‍💻 My Role:</h4>
+      <p>Developed full-stack functionality including backend logic, database schema and frontend UI components.</p>
+    </div>
+  </div>
+
+  <div id="leave-modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('leave-modal')">&times;</span>
+      <h3>Leave Management Portal</h3>
+      <p>A secure and user-friendly portal for employees to apply for leaves and for admins to approve or reject them efficiently.</p>
+      <h4>🔧 Technologies Used:</h4>
+      <ul>
+        <li>Laravel (Backend - PHP)</li>
+        <li>HTML, CSS, Bootstrap</li>
+        <li>JavaScript (Frontend interactivity)</li>
+        <li>MySQL Database</li>
+      </ul>
+      <h4>✨ Key Features:</h4>
+      <ul>
+        <li>Employee leave application form</li>
+        <li>Admin dashboard for approval/rejection</li>
+        <li>Leave history and balance tracking</li>
+        <li>Email notifications on leave status updates</li>
+      </ul>
+      <h4>🧑‍💻 My Role:</h4>
+      <p>Built and integrated the entire system from scratch, including forms, validation, database interactions and admin panel.</p>
+    </div>
+  </div>
+  <div id="achievement-modal" class="achievement-modal">
+    <div class="modal-content">
+      <span class="close-modal" onclick="closeAchievementModal()">&times;</span>
+      
+      <div class="modal-header">
+        <div class="modal-icon">
+          <ion-icon id="modal-achievement-icon" name="medal-outline"></ion-icon>
+        </div>
+        <h3 id="modal-title">Achievement Title</h3>
+        <p id="modal-subtitle">Achievement Subtitle</p>
+      </div>
+      
+      <div class="modal-body">
+        <div class="achievement-photos">
+          <!-- Photos will be inserted here by JavaScript -->
+        </div>
+        
+        <div class="achievement-details">
+          <!-- Details will be inserted here by JavaScript -->
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+    'use strict';
+
+
+
+// element toggle function
+const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
+
+
+
+// sidebar variables
+const sidebar = document.querySelector("[data-sidebar]");
+const sidebarBtn = document.querySelector("[data-sidebar-btn]");
+
+// sidebar toggle functionality for mobile
+sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
+
+
+
+// testimonials variables
+const testimonialsItem = document.querySelectorAll("[data-testimonials-item]");
+const modalContainer = document.querySelector("[data-modal-container]");
+const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
+const overlay = document.querySelector("[data-overlay]");
+
+// modal variable
+const modalImg = document.querySelector("[data-modal-img]");
+const modalTitle = document.querySelector("[data-modal-title]");
+const modalText = document.querySelector("[data-modal-text]");
+
+// modal toggle function
+const testimonialsModalFunc = function () {
+  modalContainer.classList.toggle("active");
+  overlay.classList.toggle("active");
+}
+
+// add click event to all modal items
+for (let i = 0; i < testimonialsItem.length; i++) {
+
+  testimonialsItem[i].addEventListener("click", function () {
+
+    modalImg.src = this.querySelector("[data-testimonials-avatar]").src;
+    modalImg.alt = this.querySelector("[data-testimonials-avatar]").alt;
+    modalTitle.innerHTML = this.querySelector("[data-testimonials-title]").innerHTML;
+    modalText.innerHTML = this.querySelector("[data-testimonials-text]").innerHTML;
+
+    testimonialsModalFunc();
+
+  });
+
+}
+
+// add click event to modal close button
+modalCloseBtn.addEventListener("click", testimonialsModalFunc);
+overlay.addEventListener("click", testimonialsModalFunc);
+
+
+
+// custom select variables
+const select = document.querySelector("[data-select]");
+const selectItems = document.querySelectorAll("[data-select-item]");
+const selectValue = document.querySelector("[data-selecct-value]");
+const filterBtn = document.querySelectorAll("[data-filter-btn]");
+
+select.addEventListener("click", function () { elementToggleFunc(this); });
+
+// add event in all select items
+for (let i = 0; i < selectItems.length; i++) {
+  selectItems[i].addEventListener("click", function () {
+
+    let selectedValue = this.innerText.toLowerCase();
+    selectValue.innerText = this.innerText;
+    elementToggleFunc(select);
+    filterFunc(selectedValue);
+
+  });
+}
+
+// filter variables
+const filterItems = document.querySelectorAll("[data-filter-item]");
+
+const filterFunc = function (selectedValue) {
+
+  for (let i = 0; i < filterItems.length; i++) {
+
+    if (selectedValue === "all") {
+      filterItems[i].classList.add("active");
+    } else if (selectedValue === filterItems[i].dataset.category) {
+      filterItems[i].classList.add("active");
+    } else {
+      filterItems[i].classList.remove("active");
+    }
+
+  }
+
+}
+
+// add event in all filter button items for large screen
+let lastClickedBtn = filterBtn[0];
+
+for (let i = 0; i < filterBtn.length; i++) {
+
+  filterBtn[i].addEventListener("click", function () {
+
+    let selectedValue = this.innerText.toLowerCase();
+    selectValue.innerText = this.innerText;
+    filterFunc(selectedValue);
+
+    lastClickedBtn.classList.remove("active");
+    this.classList.add("active");
+    lastClickedBtn = this;
+
+  });
+
+}
+
+
+
+// contact form variables
+const form = document.querySelector("[data-form]");
+const formInputs = document.querySelectorAll("[data-form-input]");
+const formBtn = document.querySelector("[data-form-btn]");
+
+// add event to all form input field
+for (let i = 0; i < formInputs.length; i++) {
+  formInputs[i].addEventListener("input", function () {
+
+    // check form validation
+    if (form.checkValidity()) {
+      formBtn.removeAttribute("disabled");
+    } else {
+      formBtn.setAttribute("disabled", "");
+    }
+
+  });
+}
+
+
+
+// page navigation variables
+const navigationLinks = document.querySelectorAll("[data-nav-link]");
+const pages = document.querySelectorAll("[data-page]");
+
+// add event to all nav link
+for (let i = 0; i < navigationLinks.length; i++) {
+  navigationLinks[i].addEventListener("click", function () {
+
+    for (let i = 0; i < pages.length; i++) {
+      if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
+        pages[i].classList.add("active");
+        navigationLinks[i].classList.add("active");
+        window.scrollTo(0, 0);
+      } else {
+        pages[i].classList.remove("active");
+        navigationLinks[i].classList.remove("active");
+      }
+    }
+
+  });
+}
+
+const roles = [
+        "Web Developer",
+        "Machine Learning Engineer",
+        "Full Stack Developer",
+        "AI Enthusiast",
+        "Robotics Process Automation Specialist",
+        "Athlete",
+        "Bharatanatyam Dancer"  // Added dance role
+    ];
+
+    let currentIndex = 0;
+
+    // Function to change the role every few seconds or based on an event
+    function changeRole() {
+        // Get the element with the id 'role'
+        const roleElement = document.getElementById('role');
+        
+        // Update the content with the next role in the list
+        roleElement.innerHTML = roles[currentIndex];
+        
+        // Move to the next role, looping back to the start if at the end
+        currentIndex = (currentIndex + 1) % roles.length;
+    }
+
+    // Call the changeRole function every 3 seconds (3000 milliseconds)
+    setInterval(changeRole, 1500);
+
+    // Optionally, call changeRole based on user interaction or other triggers
+
+
+    function openModal(id) {
+  document.getElementById(id).style.display = "block";
+}
+
+function closeModal(id) {
+  document.getElementById(id).style.display = "none";
+}
+
+
+const achievements = {
+  'walk-race': {
+    title: "1st Place - 3km Walk Race",
+    subtitle: "Vidyabharathi District level (2019)",
+    icon: "medal-outline",
+    photos: [
+      "file:///C:/Users/RASHMITHA/Desktop/Rash/walk-race-1.jpg",
+    ],
+    details: {
+      description: "Won first place in the district level 3km walk competition",
+      points: [
+        "Date: 11-09-2019",
+        "Location: Mangala Stadium, Mangalore",
+        "Category: Women's 3km Walk",
+        "Organized by: Vidyabharathi District level,"
+      ]
+    }
+  },
+  'best-athlete': {
+    title: "Best Athlete Award",
+    subtitle: "Canara Engineering College 2022-23",
+    icon: "trophy-outline",
+    photos: [
+  "WhatsApp Image 2025-05-08 at 1.56.11 AM.jpeg"
+],
+    details: {
+      description: "Recognized as the best athlete of the year for outstanding performance in multiple sports",
+      points: [
+        "Awarded for excellence in athletics",
+        "Received certificate and trophy",
+        "Recognized in college annual event"
+      ]
+    }
+  },
+  '20km-walk': {
+    title: "3rd Place - 20km Walk Race",
+    subtitle: "VTU Inter Collegiate State Level (2023)",
+    icon: "medal-outline",
+    photos: [
+  "IMG-20230523-WA0002.jpg",
+  "IMG-20230523-WA0004.jpg"
+],
+    details: {
+      description: "Secured 3rd position in state level competition",
+      points: [
+        "Competed against athletes from across Karnataka",
+        "Represented Canara Engineering College"
+      ]
+    }
+  },
+  'ball-badminton': {
+    title: "3rd Place - Ball Badminton",
+    subtitle: "VTU Women State Level (2024)",
+    icon: "ribbon-outline",
+   "photos": [
+  "WhatsApp Image 2025-05-08 at 2.22.33 AM.jpeg"
+],
+    details: {
+      description: "Secured 3rd position in state level ball badminton competition",
+      points: [
+        "Competed against teams from across Karnataka",
+        "Represented Canara Engineering College",
+        "Tournament held in Mysore"
+      ]
+    }
+  },
+  'bharatanatyam': {
+    title: "Bharatanatyam Certification",
+    subtitle: "Senior Level Exam",
+    icon: "star-outline",
+    photos: [
+      "file:///C:/Users/RASHMITHA/Desktop/Rash/bharatanatyam-cert.jpg"
+    ],
+    details: {
+      description: "Successfully cleared the senior level examination in Bharatanatyam",
+      points: [
+        "Completed Junior and Senior in Bharathanatyam",
+      ]
+    }
+  },
+  'robotics': {
+    title: "Robotics Competitions",
+    subtitle: "IIT Events (2021-2025)",
+    icon: "hardware-chip-outline",
+   "photos": [
+  "robosoccor.jpg",
+  "techno.jpg",
+  "WhatsApp Image 2025-05-08 at 2.29.15 AM.jpeg"
+],
+    details: {
+      description: "Participated in national level robotics competitions at IITs",
+     "points": [
+  "Participated in Robo Soccer at IIT Hyderabad's Elan & nVision fest, February 17-19, 2023",
+  "Participated in RoboRace challenge at TechnoXian World Robotics Championship, Noida, July 25-27, 2023",
+  "Participated in Caterpillar Autonomy Challenge at IIT Madras's Shastra, January 6, 2024"
+]
+    }
+  }
+};
+function openAchievementModal(id) {
+  const achievement = achievements[id];
+  const modal = document.getElementById('achievement-modal');
+  
+  // Set modal content
+  document.getElementById('modal-title').textContent = achievement.title;
+  document.getElementById('modal-subtitle').textContent = achievement.subtitle;
+  document.getElementById('modal-achievement-icon').setAttribute('name', achievement.icon);
+  
+  // Set photos
+  const photosContainer = document.querySelector('.achievement-photos');
+  photosContainer.innerHTML = achievement.photos.map(photo => 
+    `<img src="${photo}" alt="${achievement.title}" class="achievement-photo">`
+  ).join('');
+  
+  // Set details
+  const detailsEl = document.querySelector('.achievement-details');
+  detailsEl.innerHTML = `
+    <p>${achievement.details.description}</p>
+    <ul>
+      ${achievement.details.points.map(point => `<li>${point}</li>`).join('')}
+    </ul>
+  `;
+  
+  modal.style.display = "block";
+}
+
+function closeAchievementModal() {
+  document.getElementById('achievement-modal').style.display = "none";
+}
+
+// Close modal when clicking outside content
+window.onclick = function(event) {
+  const modal = document.getElementById('achievement-modal');
+  if (event.target == modal) {
+    closeAchievementModal();
+  }
+}
+</script>
+<script>
+    // Initialize particles.js
+    document.addEventListener('DOMContentLoaded', function() {
+      particlesJS("particles-js", {
+        "particles": {
+          "number": {
+            "value": 80,
+            "density": {
+              "enable": true,
+              "value_area": 800
+            }
+          },
+          "color": {
+            "value": "#ffb400" // Using your accent color
+          },
+          "shape": {
+            "type": "circle",
+            "stroke": {
+              "width": 0,
+              "color": "#000000"
+            }
+          },
+          "opacity": {
+            "value": 0.5,
+            "random": false,
+            "anim": {
+              "enable": false,
+              "speed": 1,
+              "opacity_min": 0.1,
+              "sync": false
+            }
+          },
+          "size": {
+            "value": 3,
+            "random": true,
+            "anim": {
+              "enable": false,
+              "speed": 40,
+              "size_min": 0.1,
+              "sync": false
+            }
+          },
+          "line_linked": {
+            "enable": true,
+            "distance": 150,
+            "color": "#ffb400", // Using your accent color
+            "opacity": 0.4,
+            "width": 1
+          },
+          "move": {
+            "enable": true,
+            "speed": 2,
+            "direction": "none",
+            "random": false,
+            "straight": false,
+            "out_mode": "out",
+            "bounce": false
+          }
+        },
+        "interactivity": {
+          "detect_on": "canvas",
+          "events": {
+            "onhover": {
+              "enable": true,
+              "mode": "grab"
+            },
+            "onclick": {
+              "enable": true,
+              "mode": "push"
+            },
+            "resize": true
+          },
+          "modes": {
+            "grab": {
+              "distance": 140,
+              "line_linked": {
+                "opacity": 1
+              }
+            },
+            "push": {
+              "particles_nb": 4
+            }
+          }
+        },
+        "retina_detect": true
+      });
+    });
+  </script>
+</html>
